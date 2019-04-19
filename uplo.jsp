@@ -3,6 +3,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -67,7 +70,7 @@
 }
 body {
   font-size: 0.9rem;
-  background-image: url("webiste.jpg");
+  background-image: url("uplo.jpg");
   
 }
 .page-wrapper .sidebar-wrapper,
@@ -86,6 +89,10 @@ body {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+.container{
+	padding-top: 150px;
+	font-size: 20px;
 }
 
 /*----------------page-wrapper----------------*/
@@ -600,7 +607,7 @@ $("#show-sidebar").click(function() {
             <a href="dash.jsp">
               <i class="fa fa-tachometer-alt"></i>
               <span>Dashboard</span>
-              <span class="badge badge-pill badge-warning">New</span>
+              <span class="badge badge-pill badge-warning"></span>
             </a>
             
           </li>
@@ -608,7 +615,7 @@ $("#show-sidebar").click(function() {
             <a href="uplo.jsp">
               <i class="fa fa-shopping-cart"></i>
               <span>Upload Posts</span>
-              <span class="badge badge-pill badge-danger">3</span>
+              <span class="badge badge-pill badge-danger"></span>
             </a>
             
           <li class="">
@@ -623,6 +630,7 @@ $("#show-sidebar").click(function() {
       </div>
       <!-- sidebar-menu  -->
     </div>
+   
     <!-- sidebar-content  -->
     <div class="sidebar-footer">
       <a href="#">
@@ -644,9 +652,39 @@ $("#show-sidebar").click(function() {
   </nav>
   <div>
   
-  <h1 align="center" style="margin-top:450px; color:white;font-size: 80px;font-weight:bolder;font-family: inherit;">WELCOME TO NGO</h1>
   
   </div>
+   <div class="container">
+<h1 style="color: #9086A5" >Upload Your Posts</h1><br>
+<form>
+  <div class="form-group">
+    <label for="Name" style="color: white">Title</label>
+    <input type="name" class="form-control" id="Name" placeholder="Title">
+  </div>
+  <div class="form-group">
+    <label for="Email1"style="color: white">Post Description</label>
+    <input type="email" class="form-control" id="Email1" placeholder="Description">
+  </div>  
+  
+  <div class="form-group">
+    <label for="Inputselect"style="color: white">Select Date</label>
+    <input type="date">
+  </div>
+  <div class="form-group">
+    <label for="Email1"style="color: white">Address</label>
+    <input type="email" class="form-control" id="Email1" placeholder="Address">
+  </div>  
+  <div class="form-group">
+    <label for=" Email1msg"style="color: white">Choose File:</label>
+    <input type="file">
+<!-- add text area here -->
+
+  </div>
+  <br>
+
+  <button type="submit" class="btn btn-info" >Submit Information</button>
+</form>
+</div>
   
   
   <!-- sidebar-wrapper  -->
