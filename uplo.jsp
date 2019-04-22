@@ -70,7 +70,7 @@
 }
 body {
   font-size: 0.9rem;
-  background-image: url("uplo.jpg");
+  background-image: url("g3.jpg");
   
 }
 .page-wrapper .sidebar-wrapper,
@@ -655,16 +655,25 @@ $("#show-sidebar").click(function() {
   
   </div>
    <div class="container">
-<h1 style="color: #9086A5" >Upload Your Posts</h1><br>
+<!--  <h1 style="color: #9086A5" >Upload Your Posts</h1><br>-->
+  <h1  style="margin-top:5px; color:white;font-size: 80px;font-family: inherit;font-family: fantasy; text-align: center;color:#706f6f;text-decoration: underline;">Upload Your Posts.....</h1><br>
+
 <form>
   <div class="form-group">
     <label for="Name" style="color: white">Title</label>
     <input type="name" class="form-control" id="Name" placeholder="Title">
   </div>
-  <div class="form-group">
-    <label for="Email1"style="color: white">Post Description</label>
-    <input type="email" class="form-control" id="Email1" placeholder="Description">
-  </div>  
+	<div class="form-group">
+    <label for="Name" style="color: white">Category</label>
+    <select>
+    	<option>Market</option>
+    	<option>HouseHold</option>
+    	<option></option>
+    	
+    </select>
+  </div>
+    
+   
   
   <div class="form-group">
     <label for="Inputselect"style="color: white">Select Date</label>
@@ -680,7 +689,11 @@ $("#show-sidebar").click(function() {
 <!-- add text area here -->
 
   </div>
-  <br>
+  <div class="form-group">
+    <label for="Email1"style="color: white">Post Description</label>
+  	<textarea rows="10" cols="110" style="resize: none; padding:50px; border-radius:10px;"></textarea>
+  </div> 
+  
 
   <button type="submit" class="btn btn-info" >Submit Information</button>
 </form>
