@@ -600,7 +600,7 @@ $("#show-sidebar").click(function() {
             <a href="dash.jsp">
               <i class="fa fa-tachometer-alt"></i>
               <span>Dashboard</span>
-              <span class="badge badge-pill badge-warning">New</span>
+              <span class="badge badge-pill badge-warning"></span>
             </a>
             
           </li>
@@ -608,7 +608,7 @@ $("#show-sidebar").click(function() {
             <a href="uplo.jsp">
               <i class="fa fa-shopping-cart"></i>
               <span>Upload Posts</span>
-              <span class="badge badge-pill badge-danger">3</span>
+              <span class="badge badge-pill badge-danger"></span>
             </a>
             
           <li class="">
