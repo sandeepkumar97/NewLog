@@ -69,7 +69,7 @@
 }
 body {
   font-size: 0.9rem;
-  background-image: url("Ng.jpeg");
+  background-image: url("g2.png");
   
 }
 .page-wrapper .sidebar-wrapper,
@@ -646,22 +646,10 @@ $("#show-sidebar").click(function() {
   <!-- sidebar-wrapper  -->
   <main class="page-content">
     <div class="container-fluid">
-      <h2>Pro Sidebar</h2>
-      <hr>
-      <div class="row">
-        <div class="form-group col-md-12">
-          <p>This is a responsive sidebar template with dropdown menu based on bootstrap 4 framework.</p>
-          <p> You can find the complete code on <a href="https://github.com/azouaoui-med/pro-sidebar-template" target="_blank">
-              Github</a>, it contains more themes and background image option</p>
-        </div>
-        <div class="form-group col-md-12">
-          <iframe src="https://ghbtns.com/github-btn.html?user=azouaoui-med&repo=pro-sidebar-template&type=star&count=true&size=large"
-            frameborder="0" scrolling="0" width="140px" height="30px"></iframe>
-          <iframe src="https://ghbtns.com/github-btn.html?user=azouaoui-med&repo=pro-sidebar-template&type=fork&count=true&size=large"
-            frameborder="0" scrolling="0" width="140px" height="30px"></iframe>
-        </div>
+      <h1  style="margin-top:50px; color:white;font-size: 70px;font-family: inherit;text-align: center;color: #706f6f; font-family: fantasy;">List Of Posts	</h1>
+     
       </div>
-      <h5>More templates</h5>
+      
       <hr>
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">          
@@ -669,7 +657,7 @@ $("#show-sidebar").click(function() {
             <img src="https://user-images.githubusercontent.com/25878302/53659076-e2204680-3c5a-11e9-8c00-0c10bcd945e6.jpg" class="card-img-top rounded-0" alt="Angular pro sidebar">
             <div class="card-body text-center">
                 <h6 class="card-title">Angular Pro Sidebar</h6>
-                <a href="show.jsp" target="_blank" class="btn btn-success btn-sm">Show More</a>
+                <a href="show.jsp" target="" class="btn btn-success btn-sm">Show More</a>
             </div>
           </div>          
         </div>
@@ -678,7 +666,7 @@ $("#show-sidebar").click(function() {
             <img src="https://user-images.githubusercontent.com/25878302/53659076-e2204680-3c5a-11e9-8c00-0c10bcd945e6.jpg" class="card-img-top rounded-0" alt="Angular pro sidebar">
             <div class="card-body text-center">
                 <h6 class="card-title">Angular Pro Sidebar</h6>
-                <a href="https://azouaoui-med.github.io/angular-pro-sidebar/demo/" target="_blank" class="btn btn-success btn-sm">Show More</a>
+                <a href="show.jsp" target="" class="btn btn-success btn-sm">Show More</a>
             </div>
           </div>          
         </div>
@@ -687,7 +675,7 @@ $("#show-sidebar").click(function() {
             <img src="https://user-images.githubusercontent.com/25878302/53659076-e2204680-3c5a-11e9-8c00-0c10bcd945e6.jpg" class="card-img-top rounded-0" alt="Angular pro sidebar">
             <div class="card-body text-center">
                 <h6 class="card-title">Angular Pro Sidebar</h6>
-                <a href="https://azouaoui-med.github.io/angular-pro-sidebar/demo/" target="_blank" class="btn btn-success btn-sm">Show More</a>
+                <a href="https://azouaoui-med.github.io/angular-pro-sidebar/demo/" target="" class="btn btn-success btn-sm">Show More</a>
             </div>
           </div>          
         </div>
@@ -696,7 +684,7 @@ $("#show-sidebar").click(function() {
             <img src="https://user-images.githubusercontent.com/25878302/53659076-e2204680-3c5a-11e9-8c00-0c10bcd945e6.jpg" class="card-img-top rounded-0" alt="Angular pro sidebar">
             <div class="card-body text-center">
                 <h6 class="card-title">Angular Pro Sidebar</h6>
-                <a href="https://azouaoui-med.github.io/angular-pro-sidebar/demo/" target="_blank" class="btn btn-success btn-sm">Show More</a>
+                <a href="https://azouaoui-med.github.io/angular-pro-sidebar/demo/" target="" class="btn btn-success btn-sm">Show More</a>
             </div>
           </div>          
         </div>
@@ -705,7 +693,7 @@ $("#show-sidebar").click(function() {
             <img src="https://user-images.githubusercontent.com/25878302/53659497-016ba380-3c5c-11e9-8dfd-4901ddaf090b.jpg" class="card-img-top rounded-0" alt="Angular pro sidebar">
             <div class="card-body text-center">
                 <h6 class="card-title">Angular Dashboard</h6>
-                <a href="https://azouaoui-med.github.io/lightning-admin-angular/demo/" target="_blank" class="btn btn-success btn-sm">Show More</a>
+                <a href="https://azouaoui-med.github.io/lightning-admin-angular/demo/" target="" class="btn btn-success btn-sm">Show More</a>
             </div>
           </div>          
         </div>
