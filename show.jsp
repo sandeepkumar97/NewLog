@@ -21,7 +21,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
-    <title>Sidebar template</title>
+    <title>Details Of Event</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 }
 body {
   font-size: 0.9rem;
-  background-image: url("Ng.jpeg");
+  background-image: url("g2.png");
   
 }
 .page-wrapper .sidebar-wrapper,
@@ -509,6 +509,10 @@ body {
 .chiller-theme .sidebar-footer>a:last-child {
     border-right: none;
 }
+.show{
+	margin-left: 8px;
+	margin-top: 10px;
+}
 
 </style>
 <script type="text/javascript">
@@ -646,27 +650,18 @@ $("#show-sidebar").click(function() {
   <!-- sidebar-wrapper  -->
   <main class="page-content">
     <div class="container-fluid">
-      <h2>Pro Sidebar</h2>
-      <hr>
-      <div class="row">
-        <div class="form-group col-md-12">
-          <p>This is a responsive sidebar template with dropdown menu based on bootstrap 4 framework.</p>
-          <p> You can find the complete code on <a href="https://github.com/azouaoui-med/pro-sidebar-template" target="_blank">
-              Github</a>, it contains more themes and background image option</p>
-        </div>
-        <div class="form-group col-md-12">
-          <iframe src="https://ghbtns.com/github-btn.html?user=azouaoui-med&repo=pro-sidebar-template&type=star&count=true&size=large"
-            frameborder="0" scrolling="0" width="140px" height="30px"></iframe>
-          <iframe src="https://ghbtns.com/github-btn.html?user=azouaoui-med&repo=pro-sidebar-template&type=fork&count=true&size=large"
-            frameborder="0" scrolling="0" width="140px" height="30px"></iframe>
-        </div>
-      </div>
-      <h5>More templates</h5>
+      
+     <h1  style="margin-top:50px; color:white;font-size: 80px;font-family: inherit;font-family: fantasy; text-align: center;color:#706f6f;text-decoration: underline;">Showing Your Post in Detail.....</h1><br>
       <hr>
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">          
-          <div class="card rounded-0 p-0 shadow-sm"  >
-          	<p>Title Of Your Project</p>
+          <div class="card rounded-0 p-0 shadow-sm" style="width: 1400px; height: 1400px;" >
+          	<p class="show">Title Of Your Project</p>
+          	<p class="show">Category</p>
+          	<p class="show">Address</p>
+          	<p class="show">City</p>
+          	<p class="show">ZipCode</p>
+          	
             <img src="https://user-images.githubusercontent.com/25878302/53659076-e2204680-3c5a-11e9-8c00-0c10bcd945e6.jpg" class="card-img-top rounded-0" alt="Angular pro sidebar">
             <div class="card-body text-center">
                 <h6 class="card-title">Description</h6>
